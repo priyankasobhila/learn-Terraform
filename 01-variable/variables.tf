@@ -10,3 +10,12 @@ variable "sample_boolean" {
   default = true
 }
 
+variable "sample_list" {
+  default = [
+      100
+     "hello"
+      true
+    123
+  ]
+}
+
