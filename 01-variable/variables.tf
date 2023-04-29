@@ -17,5 +17,13 @@ variable "sample_list" {
       true,
     123
   ]
+
+  variable "sample_dict" {
+    default = {
+ number1 = 100,
+ string1 = "hello",
+ boolean1 = true,
+ number2 = 123
+}
 }
 
