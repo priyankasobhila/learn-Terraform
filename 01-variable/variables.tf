@@ -1,4 +1,4 @@
-variable = "sample_string" {
+variable "sample_string" {
   default = "hello world"
 }
 
