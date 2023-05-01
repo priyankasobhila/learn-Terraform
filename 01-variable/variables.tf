@@ -29,3 +29,5 @@ variable "sample_list" {
  }
 
 variable "env" {}
+
+variable "auto_num1" {}
