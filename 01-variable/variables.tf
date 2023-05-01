@@ -32,5 +32,5 @@ variable "env" {}
 
 variable "auto_num1" {}
 
-variable "auto_string1" {}
+variable "sample1" {}
 
