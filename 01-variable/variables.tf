@@ -28,3 +28,4 @@ variable "sample_list" {
    }
  }
 
+variable "env" {}
