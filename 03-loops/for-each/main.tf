@@ -49,7 +49,6 @@ resource  "null_resource" "vegetables" {
 
   provisioner "local-exec" {
     command = "echo Fruit Name - ${each.key}"
-    //    command = "echo ${length(var.fruits)}"
-  }
+    }
 
 }
