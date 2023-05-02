@@ -38,3 +38,18 @@ variable "fruits" {
   }
 }
 
+variable "vegetables" {
+  default = ["carrot", "capsicum"]
+}
+
+resource  "null_resource" "vegetables" {
+  //count = length(var.fruits)
+
+  for_each = var.vegetables
+
+  provisioner "local-exec" {
+    command = "echo Fruit Name - ${each.key}"
+    //    command = "echo ${length(var.fruits)}"
+  }
+
+}
