@@ -22,5 +22,5 @@ variable "sample2" {
 }
 
 output "sample2"{
-  value = lookup(var.sample1, "a1", "dummy")
+  value = lookup(var.sample2, "a1", "dummy")
 }
